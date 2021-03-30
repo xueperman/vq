@@ -1,0 +1,77 @@
+.heading-2 {
+  font-size: $heading-45-rem;
+  font-family: $display-font;
+  text-transform: $uppercase;
+  letter-spacing: $letter-spacing-heading;
+  font-weight: bolder;
+  text-align: center;
+
+  &--rose {
+    color: $dusty-rose;
+  }
+
+  &--blue-dark {
+    color: $blue-dark;
+  }
+
+  &--roadrunner {
+    color: $blue-dark;
+    font-size: 6rem;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 3rem;
+  }
+
+}
+
+.heading-3 {
+  text-align: center;
+  font-family: $display-font;
+  letter-spacing: $letter-spacing-heading;
+  text-transform: $uppercase;
+  font-size: $heading-35-rem;
+  font-weight: bolder;
+
+  &--blue-dark {
+    color: $blue-dark;
+  }
+
+  &--white {
+    color: $white;
+  }
+
+  &--card {
+    padding: 1.5rem 0;
+    background-color: $pink-dark;
+  }
+
+  &--font-size-change {
+    font-size: 3rem;
+    line-height: 2;
+  }
+}
+
+.heading-4 {
+  font-size: $heading-4-rem;
+  font-family: $display-font;
+  text-transform: $uppercase;
+  letter-spacing: $letter-spacing-heading;
+  font-weight: bolder;
+
+  &--blue-dark {
+    color: $blue-dark;
+  }
+}
+
+.heading-5 {
+  font-size: 4rem;
+  font-family: $display-font;
+  text-transform: uppercase;
+  letter-spacing: $letter-spacing-heading;
+  font-weight: bolder;
+
+  &--blue-dark {
+    color: $blue-dark;
+  }
+}

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700;900&family=Noto+Serif:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>VetIQ Staffing</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav id="mainNavbar" class="navbar navbar-bts navbar-expand-lg">
+      <div class="container-fluid">
+        <a href="../index.html" class="navbar-brand flex-row-center-center">
+          <span>VetIQ Staffing</span>
+          <img src="../img/roadrunner.png" alt="" width="150" height="60">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+
+        <div id="navbarSupportedContent" class="collapse navbar-collapse display-flex">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                About
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../about/about.html">About Us</a></li>
+                <li><a class="dropdown-item" href="../about/team.html">Our Team</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../vets/vets.html">Veterinarians</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../clinics/clinics.html">Clinics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../travel/travel.html">Travel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../media/media.html">Media</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Contact
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./contact.html">Contact Us</a></li>
+                <li><a class="dropdown-item" href="./refer.html">Referrals</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <section class="contact-form">
+    <div class="contact-form__contact">
+      <div class="social">
+        <ul class="social__list">
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="phone">
+        <h3 class="heading-3 heading-3--blue-dark heading-3--font-size-change">Give us a call 24 hours a day / 7 days a
+          week: <br>800-217-0166 </h3>
+        <img class="phone__dog" src="../img/contact.png" alt="">
+      </div>
+    </div>
+    <div class="contact-form__container">
+      <form action="#" class="contact-form__form">
+        <h3 class="heading-3 heading-3--blue-dark  u-margin-bottom-2">Get In Touch</h3>
+        <div class="form__group">
+          <input type="text" class="form__input" placeholder="Full Name" id="name" required>
+          <label for="name" class="form__label">Full Name</label>
+        </div>
+        <div class="form__group">
+          <input type="email" class="form__input" placeholder="Email" id="email" required>
+          <label for="email" class="form__label">Email</label>
+        </div>
+        <div class="form__group">
+          <input type="phone" class="form__input" placeholder="Phone Number" id="phone" required>
+          <label for="phone" class="form__label">Phone Number</label>
+        </div>
+        <div class="form__group">
+          <input type="text" class="form__input" placeholder="Location" id="location" required>
+          <label for="location" class="form__label">Location</label>
+        </div>
+        <div class="form__group">
+          <textarea class="form__input" placeholder="Message" id="message" rows="4" cols="50" required></textarea>
+          <label for="message" class="form__label">Message</label>
+        </div>
+        <div class="form__group">
+          <a href="#" class="btn btn-pink">Submit</a>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section class="offices">
+    <div class="offices__flex">
+      <div class="office">
+        <h4 class="office__name">Dallas - HQ</h4>
+        <p class="office__address">
+          10670 N Central Expressway<br>
+          Suite 500<br>
+          Dallas, Texas 75231<br>
+          Toll-Free: 800-217-0166
+        </p>
+        <div class="office__map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.227168271884!2d-96.77053408454702!3d32.89216158093743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e9fe0e3b0a7a1%3A0xd5f8f0668230d90c!2s10670%20N%20Central%20Expy%20%23%20500%2C%20Dallas%2C%20TX%2075231!5e0!3m2!1sen!2sus!4v1616620987404!5m2!1sen!2sus"
+            style="border:0;" allowfullscreen=""></iframe>
+        </div>
+      </div>
+      <div class="office">
+        <h4 class="office__name">East Coast Office</h4>
+        <p class="office__address">
+          200 Barr Harbor Bridge<br>
+          Suite 400<br>
+          W. Conshohocken, PA 19428<br>
+          Toll-Free: 610-834-7591
+        </p>
+        <div class="office__map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3053.2706375210705!2d-75.3114768843704!3d40.06937487940706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6be459db0b2f3%3A0x4bd9ee48f91da480!2s200%20Barr%20Harbor%20Dr%20%23400%2C%20Conshohocken%2C%20PA%2019428!5e0!3m2!1sen!2sus!4v1616622155543!5m2!1sen!2sus"
+            style="border:0;" allowfullscreen=""></iframe>
+        </div>
+      </div>
+      <div class="office">
+        <h4 class="office__name">Travel Division</h4>
+        <p class="office__address">
+          307 W Tremont Ave<br>
+          Suite 200<br>
+          Charlotte, NC 28203<br>
+          Toll-Free: 800-217-0166
+        </p>
+        <div class="office__map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3259.852630599022!2d-80.86651798449324!3d35.21013958030681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88569f7aa33fffff%3A0x92958dfc805c2e77!2sNova%20Initia%20Productions%2C%20LLC%2C%20307%20W%20Tremont%20Ave%20Suite%20200%2C%20Charlotte%2C%20NC%2028203!5e0!3m2!1sen!2sus!4v1616622229699!5m2!1sen!2sus"
+            style="border:0;" allowfullscreen=""></iframe>
+        </div>
+      </div>
+      <div class="office">
+        <h4 class="office__name">Midwest Office</h4>
+        <p class="office__address">
+          8825 Linden Drive<br>
+          Prairie Village,KS 66207<br>
+          Toll-Free: 800-217-0166<br>
+          &nbsp;
+        </p>
+        <div class="office__map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.227168271884!2d-96.77053408454702!3d32.89216158093743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e9fe0e3b0a7a1%3A0xd5f8f0668230d90c!2s10670%20N%20Central%20Expy%20%23%20500%2C%20Dallas%2C%20TX%2075231!5e0!3m2!1sen!2sus!4v1616620987404!5m2!1sen!2sus"
+            style="border:0;" allowfullscreen=""></iframe>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="offices__flex u-margin-top-4">
+      <div class="office">
+        <h4 class="office__name">West Coast Office</h4>
+        <p class="office__address">
+          8880 Rio San Diego Drive<br>
+          Suite 800<br>
+          San Diego, CA 92108<br>
+          Toll-Free: 800-217-0166
+        </p>
+        <div class="office__map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.227168271884!2d-96.77053408454702!3d32.89216158093743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e9fe0e3b0a7a1%3A0xd5f8f0668230d90c!2s10670%20N%20Central%20Expy%20%23%20500%2C%20Dallas%2C%20TX%2075231!5e0!3m2!1sen!2sus!4v1616620987404!5m2!1sen!2sus"
+            style="border:0;" allowfullscreen=""></iframe>
+        </div>
+      </div>
+
+      <div class="office">
+        <h4 class="office__name">Southeast Office</h4>
+        <p class="office__address">
+          Coming Soon!<br>
+          &nbsp;<br>
+          &nbsp;<br>
+          &nbsp;<br>
+
+        </p>
+        <div class="office__map">
+          &nbsp;
+        </div>
+      </div>
+
+    </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-contact">
+      <a href="#" class="footer-contact__lbe">Vet Login</a>
+      <ul class="footer-contact__list flex-column">
+        <li class="footer-contact__item">
+          <a href="#" class="footer-contact__link">Contact Us</a>
+        </li>
+        <li class="footer-contact__item">
+          <a href="#" class="footer-contact__link">Legal</a>
+        </li>
+        <li class="footer-contact__item">
+          <a href="#" class="footer-contact__link">Privacy Policy</a>
+        </li>
+
+      </ul>
+    </div>
+
+    <div class="social">
+      <ul class="social__list flex-row">
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+  <script src="../script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+// ============================================
+// VARIABLES
+// ============================================
+
+// COLORS 
+// ============================================
+$white: #fff;
+$black: #000;
+$pink-light: #f7eceb;
+$tan: #e6dbda;
+$pink-dark: #ebd0ce;
+$dusty-rose: #b8817d;
+$blue-light: #f0f1f7;
+$blue-medium: #dadbe6;
+$grey: #9597a6;
+$blue-dark: #545871;
+
+
+// FONTS 
+// ============================================
+$display-font: 'Big Shoulders Display', cursive;
+$body-font: 'Noto Serif', serif;
+
+// FONT SIZES
+// ============================================
+$heading-45-rem: 4.5rem;
+$heading-4-rem: 4rem;
+$heading-35-rem: 3.5rem;
+$heading-3-rem: 3rem;
+$heading-25-rem: 2.5rem;
+$heading-2-rem: 2rem;
+
+$body-font-size: 1.8rem;
+$body-font-size-2: 2rem;
+$body-font-weight: bold;
+
+$letter-spacing-heading: .3rem;
+$uppercase: uppercase;
+$border-radius: 5px;
+
+$box-shadow-1: 0 1rem 4rem rgba(0,0,0, 0.4);
+
+// BREAK POINTS
+// ============================================
+$bp-largest: 81.25em; // 1300px
+$bp-large-1: 78.125em; // 1250px
+$bp-large-2: 75em; //1200px
+$bp-large-3: 68.75em; // 1100px
+$bp-medium: 50em; // 800px
+$bp-medium-2: 43.75em; //700px
+$bp-medium-3: 37.5em; //600px
+$bp-small: 31.25em; //500px
+$bp-smallest: 25em; //400px
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+
+  @media only screen and (max-width: $bp-largest) {
+    font-size: 50%;
+  }
+}
+
+body {
+  max-width: 100vw;
+  box-sizing: border-box;
+  font-family: $body-font;
+  overflow-x: hidden;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+::selection {
+  color: $pink-dark;
+  background-color: $blue-dark;
+}
+
+.img-slider {
+  width: 100%;
+  
+
+
+  & .carousel-item {
+    height: 100%;
+
+    & img {
+      max-height: 100%;
+      max-width: 50%;
+      object-fit: cover;
+      //object-position: center;
+    }
+  }
+}
+
+

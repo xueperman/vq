@@ -1,0 +1,84 @@
+.story {
+  background-color: $blue-medium;
+  padding: 4rem 0;
+
+  &__text {
+    background-color: rgba($white, 0.6);
+    padding: 3rem;
+    border-radius: $border-radius;
+    margin-top: 2rem;
+    font-size: $body-font-size;
+    color: $blue-dark;
+    font-weight: bold;
+    width: 70%;
+    box-shadow: $box-shadow-1;
+
+    @media only screen and (max-width: $bp-medium-3) {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+
+.team {
+  width: 100%;
+  overflow: hidden;
+
+  & .carousel-item {
+    height: 150rem;
+
+    & img {
+      max-height: 100%;
+      max-width: 100%;
+      object-fit: cover;
+    }
+  }
+  // width: 100%;
+  // height: 60rem;
+
+  // &__list {
+  //   list-style: none;
+  //   display: flex;
+  //   height: 100%;
+  // }
+
+  // &__item {
+  //   width: 33.3333%;
+  //   height: 100%;
+
+  //   @media only screen and (max-width: $bp-medium) {
+  //     width: 100%;
+  //   }
+  // }
+
+  // &__image {
+  //   width: 100%;
+  //   height: 100%;
+  //   object-fit: cover;
+  //   object-position: center;
+  // }
+}
+
+.roadrunner {
+  background-color: $pink-dark;
+  padding: 4rem 0;
+
+  &__text {
+    background-color: rgba($white, 0.6);
+    padding: 3rem;
+    border-radius: $border-radius;
+    margin-top: 2rem;
+    font-size: $heading-25-rem;
+    color: $blue-dark;
+    font-weight: $body-font-weight;
+    width: 70%;
+    text-align: center;
+
+    & img {
+      display: block;
+      width: 50%;
+      height: 20rem;
+      margin: 2rem auto;
+    }
+  }
+}
