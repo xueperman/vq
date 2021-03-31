@@ -3,7 +3,7 @@
   justify-content: center;
 
   @media only screen and (max-width: $bp-medium) {
-    flex-direction: column;
+    width: 100%;
   }
 }
 
@@ -48,6 +48,23 @@
   border: 0;
   margin: 6rem;
   
+  &--3{
+    @media only screen and (max-width: $bp-medium) {
+      width: 95% !important;
+    }
+
+    @media only screen and (max-width: $bp-medium-2) {
+      width: 90% !important;
+    }
+
+    @media only screen and (max-width: $bp-medium-3) {
+      width: 95% !important;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      width: 90% !important;
+    }
+  }
 
   &__icon {
     width: 5rem;
@@ -72,11 +89,12 @@
     }
   }
 
-  &:not(:last-child) {
-    margin-right: 4rem;
+  @media only screen and (max-width: $bp-large-2) {
+    margin: 5rem;
   }
 
   @media only screen and (max-width: $bp-medium) {
-    width: 85%;
+    width: 100%;
+    margin: 2.5rem;
   }
 }

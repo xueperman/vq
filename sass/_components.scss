@@ -120,6 +120,10 @@
     &--width-60 {
       width: 60%;
     }
+
+    @media only screen and (max-width: $bp-small) {
+      width: 90%;
+    }
   }
 
   &__text {
