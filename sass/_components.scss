@@ -279,15 +279,17 @@
 }
 
 .pic-referral {
-  padding: 60rem 6rem;
+  padding: 30rem 6rem;
   background-image: url('../img/vet-10.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; 
+  background-position: top;
+  background-attachment: fixed; 
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
   position: relative;
+
 
   &__content {
     width: 50%;

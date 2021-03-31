@@ -37,6 +37,25 @@ ul {
       max-width: 50%;
       object-fit: cover; }
 
+.legal {
+  padding: 2rem 6rem;
+  background-color: #ebd0ce;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .legal p {
+    font-size: 2rem;
+    color: #545871; }
+  .legal span {
+    display: inline-block;
+    font-size: 4rem;
+    font-family: "Big Shoulders Display", cursive;
+    letter-spacing: 0.3rem;
+    font-weight: bolder; }
+    .legal span:not(:first-child) {
+      padding-top: 4rem;
+      padding-bottom: 1rem; }
+
 .flex-row {
   display: flex;
   flex-direction: row; }
@@ -246,11 +265,12 @@ ul {
       width: 100%; } }
 
 .pic-referral {
-  padding: 60rem 6rem;
+  padding: 30rem 6rem;
   background-image: url("../img/vet-10.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
+  background-attachment: fixed;
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
@@ -511,6 +531,8 @@ span.navbar-toggler-icon {
   color: #ebd0ce;
   font-size: 1.6rem;
   font-weight: bold; }
+  .footer-contact__link:hover {
+    color: #b8817d; }
   @media only screen and (max-width: 81.25em) {
     .footer-contact__link {
       font-size: 2rem; } }

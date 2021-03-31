@@ -106,4 +106,29 @@ ul {
   }
 }
 
+.legal {
+  
+  padding: 2rem 6rem;
+  background-color: $pink-dark;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+  & p {
+    font-size: 2rem;
+    color: $blue-dark;
+  }
+
+  & span {
+    display: inline-block;
+    font-size: 4rem;
+    font-family: $display-font;
+    letter-spacing: $letter-spacing-heading;
+    font-weight: bolder;
+    
+    &:not(:first-child) {
+      padding-top: 4rem;
+      padding-bottom: 1rem;
+    }
+  }
+}
