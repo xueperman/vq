@@ -4,8 +4,14 @@
   background-position: center;
   background-size: cover;
   background-repeat: none;
+  width: 100vw;
   height: 100vh;
   position: relative;
+
+  @media only screen and (max-width: $bp-medium) {
+    font-size: 2.5rem;
+    height: 80vh;
+  }
 }
 
 .tagline {
@@ -25,7 +31,9 @@
 
   @media only screen and (max-width: $bp-medium) {
     font-size: 2.5rem;
-    width: 60%;
+    width: 90%;
+    top: 50%;
+    left: 5%;
   }
 
 }

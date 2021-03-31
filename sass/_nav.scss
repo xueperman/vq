@@ -6,12 +6,24 @@
 .navbar-bts {
   padding: 2rem;
   background-color:$blue-dark;
+  width: 100% !important;
+  position: relative;
 
   & .navbar-brand {
     width: 40%;
 
+    & img {
+      width: 15rem;
+      height: 6rem;
+
+      @media only screen and (max-width: $bp-large-3) {
+        width: 10rem;
+        height: 4rem;
+      }
+    }
+
     @media only screen and (max-width: $bp-large-3) {
-      width: 80%;
+      width: 70%;
     }
   }
 
@@ -35,10 +47,24 @@
   
 }
 
+button.navbar-toggler {
+  position: absolute;
+  right: 1rem;
+}
+
 span.navbar-toggler-icon {
   display: flex;
   justify-content: center;
   align-items: center;
+
+}
+
+.fa-bars:before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 30%;
 }
 
 .dropdown-item {
